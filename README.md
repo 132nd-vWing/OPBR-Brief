@@ -1,12 +1,10 @@
-# OPBR-Brief
+# OPBR-Brief: Operation Black Rain 
 
-Operation Black Rain 
 
  
 132nd Virtual Wing - Dynamic Campaign
 
-
-## Brief and projectpage
+ Brief and projectpage
 
 
 
@@ -15,3 +13,12 @@ Operation Black Rain
 
 
 # Features
+
+
+## Prioritized
+
+
+## Agreed (vetted)
+
+
+## Suggestions
