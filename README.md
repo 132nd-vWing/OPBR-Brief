@@ -23,6 +23,8 @@ RW and A-10 are based at Bandar Abbas airfield, Al Minhad is for other BLUE figh
 
 Major combat operations / FLOT goes in a radius of 50-100nm out from Bandar Abbas Airfield.
 
+2x BLUE carriers, and 1 x Tarawa class LHA is in the region supporting operations.
+
 
 
 
