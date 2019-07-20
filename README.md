@@ -49,7 +49,7 @@ Major combat operations / FLOT goes in a radius of 50-100nm out from Bandar Abba
 
 
 ### Suggestions
-- To be added
+See Issues: https://github.com/132nd-vWing/OPBR-Brief/issues
 <br>
 <br>
 <br>
