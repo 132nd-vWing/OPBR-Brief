@@ -6,12 +6,13 @@
 --    4. Move the files "socket.lua", "mime.lua" and "ltn12.lua" to "C:\DCS World Open Beta\bin\lua\"
 
 -- GLOBALS:
-_URL = "http://localhost:5000/api/v1"
+-- _URL = "http://localhost:5000/api/v1"
+_URL = "http://client.tnc.today/api/v1"
 _EventID = 0
 
 -- LIB PATHS:
 package.path = package.path .. ";.\\LuaSocket\\?.lua"
-package.cpath = package.cpath .. ";.\\LuaSocket\\?.dll"
+package.cpath = package.cpath .. ";.\\LuaSocket\\?.dll" -- These might be redundant, as it does not seem sub-libraries take this into account, hence steps 2-4 above
 
 -- INCLUDES:
 require = mint.require
