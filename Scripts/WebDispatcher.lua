@@ -5,12 +5,17 @@
 --    3. Copy ALL files from "C:\DCS World Open Beta\LuaSocket" into the "socket" folder in step 2
 --    4. Move the files "socket.lua", "mime.lua" and "ltn12.lua" to "C:\DCS World Open Beta\bin\lua\"
 
+-- GLOBALS:
+_URL = "http://localhost:5000/api/v1"
+_EventID = 0
+
+-- LIB PATHS:
 package.path = package.path .. ";.\\LuaSocket\\?.lua"
 package.cpath = package.cpath .. ";.\\LuaSocket\\?.dll"
 
--- Required for doing HTTP requests, see http://w3.impa.br/~diego/software/luasocket/http.html
+-- INCLUDES:
 require = mint.require
-local http = require("socket.http")
+local http = require("socket.http") -- Required for doing HTTP requests, see http://w3.impa.br/~diego/software/luasocket/http.html
 local ltn12 = require("ltn12")
 require = nil
 
@@ -26,8 +31,8 @@ require = nil
 -- @field #string url
 -- @field #number eventID
 WebDispatcher = {
-  url = "http://localhost:5000/api/v1",
-  eventID = 0
+  url = _URL,
+  eventID = _EVENTID
 }
 
 ---
